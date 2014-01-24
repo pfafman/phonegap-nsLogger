@@ -8,7 +8,10 @@
     <license>MIT</license>
     <keywords>phonegap,ios,logging</keywords>
  
- 
+    <js-module src="www/nsLogger.js" name="NSLogger">
+        <clobbers target="NSLogger" />
+    </js-module>
+    
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
@@ -16,9 +19,7 @@
                 <param name="ios-package" value="NSLogger" />
             </feature>
         </config-file>
-        <js-module src="www/nsLogger.js" name="NSLogger">
-            <clobbers target="NSLogger" />
-        </js-module>
+        
         <header-file src="src/ios/NSLogger.h" />
         <source-file src="src/ios/NSLogger.m" />
     </platform>
