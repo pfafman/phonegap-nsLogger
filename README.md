@@ -1,7 +1,7 @@
 Phonegap-Plugin for doing NSLog on iOS 
 =======================================
 
-This is a sample plugin for Phonegap (>= 3.0). This library has only one method that sends a string to NSLog on iOS devices.  I am also using this to test [Meteor-cordova](https://github.com/SpaceCapsule/Meteor-cordova)
+This is a sample plugin for cordova (>= 3.5). This library has only one method that sends a string to NSLog on iOS devices.  I am also using this to test [Meteor-cordova](https://github.com/SpaceCapsule/Meteor-cordova)
 
 ## Supported platforms
 
@@ -12,7 +12,7 @@ This is a sample plugin for Phonegap (>= 3.0). This library has only one method 
 
 To use this plugin, add this to your project using the PhoneGap CLI:
 ```
-phonegap local plugin add https://github.com/pfafman/phonegap-nsLogger.git
+cordova plugin add https://github.com/pfafman/phonegap-nsLogger.git
 ```
 
 ## Using
